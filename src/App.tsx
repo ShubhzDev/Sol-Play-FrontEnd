@@ -1,13 +1,16 @@
-import './App.css'
-import Bottom from './components/Bottom'
-import Header from './components/Header'
-import Middle from './components/Middle'
+import "./App.css";
+import Blockchain from "./components/Blockchain/Blockchain";
+import Footer from "./components/LandingPage/Footer";
+import Header from "./components/LandingPage/Header";
 
 function App() {
-
   return (
+    <>
       <Header />
-  )
+      <Blockchain/>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
